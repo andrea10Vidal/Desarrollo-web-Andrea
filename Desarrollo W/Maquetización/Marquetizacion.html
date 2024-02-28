@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <title>Maquetizacion</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+<style>
+   .barra-superior {
+    border: 1px solid black;
+    background-color: rgb(149, 182, 175);
+    color: white;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    z-index: 1; 
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    width: 150px;
+    padding: 20px;
+    box-sizing: border-box;
+    border-right: 2px solid #fff;
+    height: calc(110vh - 30px); 
+    position: fixed;
+    left: 0;
+    top: 0px; 
+    overflow-y: auto; 
+    z-index: 1000; 
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin-bottom: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav form {
+    margin-top: 20px;
+}
+
+nav form input[type="search"] {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+nav form input[type="submit"] {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    background-color: #555;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+nav form input[type="submit"]:hover {
+    background-color: #666;
+}
+
+.gato {
+    background-color: #333;
+    padding: 10px;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    z-index: 1; 
+}
+.contenedor {
+            width: 70%; 
+            border: 1px solid black;
+            padding: 1%;
+            display: inline-block;
+            background-color:rgb(149, 182, 175);
+            margin-top: 165px;
+            margin-left: 265px;
+            border-radius: 10px;
+            vertical-align: top;
+        }
+img {
+  border-radius: 25px;
+}
+p{
+  width: 80%;
+  text-align: justify;
+}
+</style>
+
+  <body>
+    
+
+    <div class="barra-superior">
+    <header>
+      <h1>BlogEscucha</h1>
+    </header>
+    </div>
+    <nav>
+      <div class="gato">
+        <img src="feliz.png">
+        </div>
+        <div style="margin-bottom: 250px; margin-top: 160px;">
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Nueva Música</a></li>
+                <li><a href="#">Noticias</a></li>
+                <li><a href="#">Trending</a></li>
+            </ul>      
+       <form>
+        <input type="search" name="q" placeholder="Search query">
+        <input type="submit" value="Go!">
+      </form>
+
+        </div>
+      
+       <ul>
+        <li><a href="#">Menu</a></li>
+       </ul> 
+     </nav>
+
+    <main class="contenedor">
+      <article>
+        <h2>Descubre las 5 canciones de Morat más escuchadas en Spotify</h2> <br>
+
+      </article>
+
+      <aside>
+        <h2>Canciones Más Populares De La Banda Colombiana</h2>
+
+        <ul>
+          <li><a href="#">Cuando Nadie Ve</a></li>
+        <p>Acumulando más de 491 millones de reproducciones en la plataforma de
+          streaming, este single se lanzó en 2016 como parte del primer álbum de estudio
+          de la agrupación llamado ‘Sobre el amor y sus efectos secundarios’.
+        </p><br>
+        <img src="morat1.png" alt="Imagen">
+        <br><br>
+        
+          <li><a href="#">Cómo Te Atreves</a></li>
+          <p>Superando la cifra de 364 millones de reproducciones, esta melodía del álbum
+            ‘Sobre el amor y sus efectos secundarios’ habla sobre el dolor de una ruptura
+             amorosa y cómo una expareja intenta volver después de haberte roto el corazón.</p> <br>
+             <img src="morat2.png" alt="Imagen">
+        <br><br>
+
+          <li><a href="#">París</a></li>
+          <p>Sumando alrededor de 139 millones de reproducciones, esta canción se lanzó en 
+            2022 como parte del álbum “¿A dónde vamos?” y aborda ese momento en una relación
+            en el que debes confrontar a tu pareja al darte cuenta de que no es buena para ti.</p> <br>
+            <img src="morat3.png" alt="Imagen">
+        <br><br>
+        </ul>
+      </aside>
+
+      <aside>
+        
+      </aside>
+
+    </main>
+
+    <footer>
+    
+    </footer>
+
+  </body>
+</html>

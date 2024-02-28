@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MORAT</title>
+    
+    <style>
+        body {
+            background-color: rgb(206, 236, 169);
+            background-size: cover;
+            background-repeat: no-repeat;
+            display: flex; 
+            justify-content: space-around; 
+            align-items: center; 
+            flex-wrap: wrap; 
+        }
+        .Contenedor {
+            max-width: 45%;
+            margin: 10px; 
+            padding: 10px;
+        }
+        .Contenedor img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 35px;
+        }
+        .video {
+            max-width: 45%;
+            margin: 10px; 
+            padding: 10px;
+        }
+        .video video {
+            width: 100%;
+            height: auto;
+            border-radius: 35px;
+        }
+        object{
+            border-radius: 25px;
+        }
+        h1 {
+            font-size: 60px;
+            text-align: center;
+            width: 100%; 
+        }
+
+    </style>
+</head>
+<body>  
+    <h1>MORAT</h1>
+    <div class="Contenedor">
+        <img src="escritorio.webp" usemap="#mapa" alt="Comida" />
+    </div>  
+    
+    <div class="video">
+        <video width="580" height="375" controls>
+            <source src="Morat - De Cero.mp4" type="video/mp4">
+        </video>
+    </div>
+    
+    <map name="mapa">
+        <area class="area1" shape="circle" coords="220,120,40" href="https://es.famousbirthdays.com/people/martin-vargas-popsinger.html" alt="Área 1">
+        <area class="area2" shape="circle" coords="80,120,40" href="https://es.famousbirthdays.com/people/simon-vargas.html" alt="Área 2">
+        <area class="area3" shape="circle" coords="340,100,40" href="https://es.famousbirthdays.com/people/juan-villamil.html" alt="Área 3">
+        <area class="area4" shape="circle" coords="480,90,40" href="https://es.famousbirthdays.com/people/juan-isaza.html" alt="Área 4">
+    </map>
+</body>
+</html>
